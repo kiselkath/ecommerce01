@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data //generated all getters and setters, equals, toString
 @NoArgsConstructor
 @AllArgsConstructor
-@RequiredArgsConstructor //to exclude id from the all-arg-constr
+//@RequiredArgsConstructor //to exclude id from the all-arg-constr
 
 
 @Document(collection = "products")
